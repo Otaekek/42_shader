@@ -1,6 +1,10 @@
 #pragma once
 
+#define MAX_MODULES 256
+
+#include <jojishi.hpp>
 #include <Jarray.hpp>
+
 
 class moduleManager {
 
@@ -10,5 +14,5 @@ class moduleManager {
 
 	static void add_module(AModule *module);
 
-	static Jarray<AModule> modules;
+	static JConstantArray<AModule, MAX_MODULES> modules;
 }

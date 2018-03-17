@@ -11,5 +11,6 @@
 #include <GL/glu.h>
 #endif
 
+#define assertf(x, f) if (x == 0) {printf("Assert failed in %s Line %d: %s\n", __FILE__, __LINE__, f); } 
 
 #endif
