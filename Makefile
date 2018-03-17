@@ -42,6 +42,7 @@ SRC_SUBDIR += piaw_physic
 CFLAGS += -Isrc/piaw_physic
 SOURCES += piawPhysic.class.cpp
 
+
 #sound
 SRC_SUBDIR += sound_builtin
 CFLAGS += -Isrc/sound_builtin
@@ -132,6 +133,7 @@ SOURCES += renderDataSys.class.cpp
 SOURCES += complexObjectRenderingPipeline.cpp
 SOURCES += renderBuiltIn.class.cpp
 SOURCES	+= renderBuiltInInstancing.class.cpp
+SOURCES += shader_system.cpp
 #SOURCES += voxRenderer.cpp
 
 # jb system
@@ -213,6 +215,7 @@ SOURCES += entity.class.cpp
 SRC_SUBDIR += timeBuiltin
 CFLAGS += -Isrc/timeBuiltin
 SOURCES += time.class.cpp
+
 
 # Generation
 INC_PATH = inc
