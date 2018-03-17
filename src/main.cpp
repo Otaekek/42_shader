@@ -81,6 +81,7 @@ void update()
 	basicLightFactory::update();
 //	mapEditorBuiltin::update();
 	renderBuiltIn::swap_buffer();
+	//renderDataSys::update();
 }
 
 int main(int ac, char **av)
